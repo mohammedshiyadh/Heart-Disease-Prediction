@@ -1,0 +1,10 @@
+Model,Experiment,Accuracy,Precision,Recall,F1 Score,ROC-AUC
+Logistic Regression,Playground CV,0.8851,0.8812,0.8596,0.8703,0.9527
+Random Forest,Playground CV,0.8831,0.8748,0.8628,0.8688,0.9498
+XGBoost,Playground CV,0.8878,0.8814,0.8664,0.8738,0.9548
+LightGBM,Playground CV,0.888,0.8816,0.8665,0.874,0.9548
+Linear SVM,Playground CV,0.8851,0.8821,0.8586,0.8702,0.9527
+XGBoost,UCI Holdout,0.8852,0.8182,0.9643,0.8852,0.9426
+LightGBM,UCI Holdout,0.9344,0.9,0.9643,0.931,0.9643
+XGBoost,Cross-Dataset,0.8185,0.7917,0.8201,0.8057,0.9173
+LightGBM,Cross-Dataset,0.8218,0.7972,0.8201,0.8085,0.9182
